@@ -73,7 +73,7 @@ connectToDB()
     const PORT = process.env.PORT || 8000;
     server.listen(PORT, () => {
       // console.log("Private Key:", process.env.PRIVATE_KEY);
-      console.log("🔍 Connecting to:", process.env.MONGO_URI);
+      //console.log("🔍 Connecting to:", process.env.MONGO_URI);
       console.log(`🚀  Server running on port ${PORT}`);
     });
   })  
